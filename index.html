@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Checker CHK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://js.stripe.com/v3/"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💳 Checker CHK</h1>
+    <p>Insira os dados do cartão para testar no ambiente seguro da Stripe.</p>
+    
+<form id="payment-form">
+  <div id="card-element"><!-- Stripe insere os campos aqui --></div>
+  <button id="submit">Validar Cartão</button>
+  <div id="payment-result"></div>
+</form>
+  </div>
+
+  <footer>
+    <p>Criado por <strong>RubyHacker</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
